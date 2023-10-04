@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisanal E-commerce</title>
+    <link rel="stylesheet" href="C:/Users/Vicky111/Desktop/IBM NSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Artisanal E-commerce</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="C:/Users/Vicky111/Desktop/IBM NSS/projectshowcase.html">Categories</a></li>
+            <li><a href="C:/Users/Vicky111/Desktop/IBM NSS/shopingcart.html">Shopping Cart</a></li>
+            <li><a href="C:/Users/Vicky111/Desktop/IBM NSS/userauthentication.html">Checkout</a></li>
+            <li><a href="C:/Users/Vicky111/Desktop/IBM NSS/payment.html">Payment</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="categories">
+            <!-- Product categories -->
+            <div class="category">
+                <h2>Jewelry</h2>
+                <ul>
+                    <li>
+                        <img src="C:/Users/Vicky111/Desktop/IBM NSS/Jewellery 2.jpg" alt="Jewelry Product 1">
+                        <h3>Jewelry Product 1</h3>
+                        <p>Description: Beautiful handcrafted necklace.</p>
+                        <p>Price: $50.00</p>
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="C:/Users/Vicky111/Desktop/IBM NSS/Jewellery 1.jpg" alt="Jewelry Product 2">
+                        <h3>Jewelry Product 2</h3>
+                        <p>Description: Elegant bracelet with gemstones.</p>
+                        <p>Price: $40.00</p>
+                        <button>Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>Home Decor</h2>
+                <ul>
+                    <li>
+                        <img src="C:/Users/Vicky111/Desktop/IBM NSS/Home decarator 1.jpg" alt="Home Decor Product 1">
+                        <h3>Home Decor Product 1</h3>
+                        <p>Description: Hand-painted ceramic vase.</p>
+                        <p>Price: $35.00</p>
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="C:/Users/Vicky111/Desktop/IBM NSS/Home decarator 2.jpg" alt="Home Decor Product 2">
+                        <h3>Home Decor Product 2</h3>
+                        <p>Description: Wooden wall art for your home.</p>
+                        <p>Price: $55.00</p>
+                        <button>Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Product Page HTML -->
+<div class="product-details">
+    <!-- Product details go here -->
+    
+    <!-- "Leave a Review" Button -->
+    <button id="leave-review-button">Leave a Review</button>
+    
+    <!-- Review Form (Initially hidden) -->
+    <div id="review-form" style="display: none;">
+        <h3>Leave a Review</h3>
+        <form id="review-submit-form">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <br>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <br>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+    
+    <!-- Existing Reviews -->
+    <div id="existing-reviews">
+        <!-- Reviews will be displayed here dynamically -->
+    </div>
+</div>
+
+<script>
+// JavaScript to toggle the review form visibility when the "Leave a Review" button is clicked
+document.getElementById("leave-review-button").addEventListener("click", function() {
+    var reviewForm = document.getElementById("review-form");
+    reviewForm.style.display = "block";
+});
+</script>
+
+
+    </main>
+     
+    <footer>
+        &copy; 2023 Artisanal E-commerce
+    </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content container */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Product categories styles */
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Individual product styles */
+#individual-product {
+    position: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#individual-product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#individual-product h2 {
+    font-size: 20px;
+}
+
+#individual-product p {
+    margin: 10px 0;
+}
+
+#individual-product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* User authentication styles */
+#authentication {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+#authentication h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#authentication form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#authentication form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#authentication form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Shopping cart and checkout styles */
+#cart, #checkout {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#cart h2, #checkout h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cart button, #checkout button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Payment integration styles */
+#payment {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+#payment h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#payment form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#payment form input, #payment form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#payment form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
